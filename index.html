@@ -37,7 +37,7 @@ td{
   text-align: center;
   vertical-align:middle;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 16px;
   color: #fff;
   border-bottom: solid 1px rgba(255,255,255,0.1);
 }
@@ -107,8 +107,9 @@ section{
       <thead>
         <tr>
           <th>Text</th>
-          <th></th>
-          <th>Human</th>
+          <th>Audio</th>
+          <th>Original</th>
+          <th>Perceived</th>
           <th>Chat GPT</th>
         </tr>
       </thead>
@@ -117,12 +118,1458 @@ section{
   <div class="tbl-content">
     <table cellpadding="0" cellspacing="0" border="0">
       <tbody>
-        <t r>
-          <td>AAC</td>
-          <td><audio controls><source src="horse.mp3" type="audio/mpeg"></audio></td>
-          <td>$1.38</td>
-          <td>+2.01</td>
-        </tr>
+        <tr>
+  <td>Fine! I’m sorry for your loss!</td>
+  <td><audio controls><source src="./audios/dia9_utt13.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Sad</td>
+  <td>GPT1</td>
+</tr>
+<tr>
+  <td>Love me, I need love!</td>
+  <td><audio controls><source src="./audios/dia13_utt7.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Sad</td>
+  <td>GPT2</td>
+</tr>
+<tr>
+  <td>Look, honey, I have tried to make nice, it doesn’t work.</td>
+  <td><audio controls><source src="./audios/dia17_utt24.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Sad</td>
+  <td>GPT3</td>
+</tr>
+<tr>
+  <td>Go back in time and listen to Phoebe!</td>
+  <td><audio controls><source src="./audios/dia33_utt1.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT4</td>
+</tr>
+<tr>
+  <td>Well, she is going to know that you stole the joke.</td>
+  <td><audio controls><source src="./audios/dia64_utt2.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT5</td>
+</tr>
+<tr>
+  <td>You don't know anything.</td>
+  <td><audio controls><source src="./audios/dia68_utt11.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT6</td>
+</tr>
+<tr>
+  <td>You listen to me!</td>
+  <td><audio controls><source src="./audios/dia72_utt4.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT7</td>
+</tr>
+<tr>
+  <td>That cup is mine!</td>
+  <td><audio controls><source src="./audios/dia77_utt2.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT8</td>
+</tr>
+<tr>
+  <td>You said she was bald.</td>
+  <td><audio controls><source src="./audios/dia102_utt0.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT9</td>
+</tr>
+<tr>
+  <td>What do you have against the beautiful guest room?</td>
+  <td><audio controls><source src="./audios/dia120_utt15.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT10</td>
+</tr>
+<tr>
+  <td>You guys are always hanging out in my apartment!</td>
+  <td><audio controls><source src="./audios/dia147_utt4.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Happy</td>
+  <td>GPT11</td>
+</tr>
+<tr>
+  <td>Give me your hands.  Strings. Gimme it!  Pick. Do you want to learn to play guitar?</td>
+  <td><audio controls><source src="./audios/dia260_utt8.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Happy</td>
+  <td>GPT12</td>
+</tr>
+<tr>
+  <td>Well, I'm not I'm not at all surprised they feel that way.</td>
+  <td><audio controls><source src="./audios/dia13_utt2.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT44</td>
+</tr>
+<tr>
+  <td>Listen uh, I’d prefer it if you didn’t call me Joey.</td>
+  <td><audio controls><source src="./audios/dia16_utt1.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Angry</td>
+  <td>GPT45</td>
+</tr>
+<tr>
+  <td>You’re not the fan who’s dying are you?</td>
+  <td><audio controls><source src="./audios/dia240_utt8.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Sad</td>
+  <td>GPT46</td>
+</tr>
+<tr>
+  <td>Nice to meet you, Chandler Bing</td>
+  <td><audio controls><source src="./audios/dia244_utt9.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Happy</td>
+  <td>GPT47</td>
+</tr>
+<tr>
+  <td>Sure, it’s hard to forget!</td>
+  <td><audio controls><source src="./audios/dia252_utt14.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Sad</td>
+  <td>GPT48</td>
+</tr>
+<tr>
+  <td>I'm sorry there wasn't better news from your test last week but I wanted to talk to you about your options.</td>
+  <td><audio controls><source src="./audios/dia268_utt6.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Sad</td>
+  <td>GPT49</td>
+</tr>
+<tr>
+  <td>All right, but I should warn you, I’m not going. I’m going.</td>
+  <td><audio controls><source src="./audios/dia278_utt16.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Angry</td>
+  <td>GPT50</td>
+</tr>
+<tr>
+  <td>Ross, please, I found the magazines!</td>
+  <td><audio controls><source src="./audios/dia54_utt11.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT51</td>
+</tr>
+<tr>
+  <td>I mean, I remember a time when</td>
+  <td><audio controls><source src="./audios/dia58_utt10.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT52</td>
+</tr>
+<tr>
+  <td>I can’t remember which sister.</td>
+  <td><audio controls><source src="./audios/dia83_utt9.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT53</td>
+</tr>
+<tr>
+  <td>Nooo, I had to return it to the costume place.</td>
+  <td><audio controls><source src="./audios/dia107_utt3.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT54</td>
+</tr>
+<tr>
+  <td>I can't remember the last time I got a girl to take care of my monkey.</td>
+  <td><audio controls><source src="./audios/dia110_utt6.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT55</td>
+</tr>
+<tr>
+  <td>Honey, honey, people are looking.</td>
+  <td><audio controls><source src="./audios/dia150_utt0.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Happy</td>
+  <td>GPT56</td>
+</tr>
+<tr>
+  <td>Ah, oh God. Oh, honey, oh that's OK.</td>
+  <td><audio controls><source src="./audios/dia207_utt0.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Happy</td>
+  <td>GPT57</td>
+</tr>
+<tr>
+  <td>What is it? Hey!</td>
+  <td><audio controls><source src="./audios/dia208_utt4.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT58</td>
+</tr>
+<tr>
+  <td>Can I get some ice here?!</td>
+  <td><audio controls><source src="./audios/dia240_utt6.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT59</td>
+</tr>
+<tr>
+  <td>I’m never gonna find a roommate, ever.</td>
+  <td><audio controls><source src="./audios/dia244_utt4.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT60</td>
+</tr>
+<tr>
+  <td>I don’t know what it is, I just can’t take a good picture.</td>
+  <td><audio controls><source src="./audios/dia278_utt8.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT61</td>
+</tr>
+<tr>
+  <td>I mean, enough of the silliness!</td>
+  <td><audio controls><source src="./audios/dia12_utt3.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT72</td>
+</tr>
+<tr>
+  <td>So, I hear, you hate me!</td>
+  <td><audio controls><source src="./audios/dia37_utt0.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT73</td>
+</tr>
+<tr>
+  <td>Not this hospital, I’m going to sue you!</td>
+  <td><audio controls><source src="./audios/dia72_utt10.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT74</td>
+</tr>
+<tr>
+  <td>What’s wrong with you?</td>
+  <td><audio controls><source src="./audios/dia84_utt0.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT75</td>
+</tr>
+<tr>
+  <td>Stupid, useless Canadian money!</td>
+  <td><audio controls><source src="./audios/dia134_utt3.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT76</td>
+</tr>
+<tr>
+  <td>You want me to just quit my job so that you can feel like you’ve got a girlfriend?</td>
+  <td><audio controls><source src="./audios/dia155_utt1.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT77</td>
+</tr>
+<tr>
+  <td>Oh no-no-no, Monica would freak.  But to hell with that bitch.</td>
+  <td><audio controls><source src="./audios/dia156_utt15.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT78</td>
+</tr>
+<tr>
+  <td>Are you just repeating what I'm saying?</td>
+  <td><audio controls><source src="./audios/dia167_utt14.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT79</td>
+</tr>
+<tr>
+  <td>What the hell!</td>
+  <td><audio controls><source src="./audios/dia196_utt14.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT80</td>
+</tr>
+<tr>
+  <td>You idiot!!</td>
+  <td><audio controls><source src="./audios/dia234_utt4.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT81</td>
+</tr>
+<tr>
+  <td>What are you just some big, dumb, stupid, doofy idiot, with a doofy idiot hairdo, huh?!</td>
+  <td><audio controls><source src="./audios/dia234_utt6.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT82</td>
+</tr>
+<tr>
+  <td>I don’t know exactly. It’s-it’s sorta like wrestling.</td>
+  <td><audio controls><source src="./audios/dia6_utt1.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT94</td>
+</tr>
+<tr>
+  <td>Hey buddy, do you think I can borrow your uniform this Thursday?</td>
+  <td><audio controls><source src="./audios/dia9_utt5.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT95</td>
+</tr>
+<tr>
+  <td>Yes, they can stay with us.</td>
+  <td><audio controls><source src="./audios/dia9_utt16.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT96</td>
+</tr>
+<tr>
+  <td>Because we can remember them.</td>
+  <td><audio controls><source src="./audios/dia16_utt8.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT97</td>
+</tr>
+<tr>
+  <td>Yeah, I-I considered that. I just know it would make me happy.</td>
+  <td><audio controls><source src="./audios/dia145_utt10.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT98</td>
+</tr>
+<tr>
+  <td>It’s between us and the sea, Ross!</td>
+  <td><audio controls><source src="./audios/dia252_utt18.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT99</td>
+</tr>
+<tr>
+  <td>Hey, Chandler, why don’t we talk this over at the Ranger game tomorrow?</td>
+  <td><audio controls><source src="./audios/dia253_utt8.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT100</td>
+</tr>
+<tr>
+  <td>Where've you been?</td>
+  <td><audio controls><source src="./audios/dia263_utt2.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT101</td>
+</tr>
+<tr>
+  <td>Don't worry, after a while he'll tune it out.</td>
+  <td><audio controls><source src="./audios/dia268_utt11.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT102</td>
+</tr>
+<tr>
+  <td>Thanks. Yeah, Carol borrowed it for a class, and I have to get it back to the museum.</td>
+  <td><audio controls><source src="./audios/dia270_utt4.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT103</td>
+</tr>
+<tr>
+  <td>Well, you know, you have to take a course. Otherwise, they don't let you do it.</td>
+  <td><audio controls><source src="./audios/dia270_utt9.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT104</td>
+</tr>
+<tr>
+  <td>Of course they€™re listening to you! Everybody listens to you.</td>
+  <td><audio controls><source src="./audios/dia279_utt13.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT105</td>
+</tr>
+<tr>
+  <td>I think you look fine.</td>
+  <td><audio controls><source src="./audios/dia279_utt15.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT106</td>
+</tr>
+<tr>
+  <td>Everything’s ruined. My bed. My clothes. Look at my favorite blue sweater.</td>
+  <td><audio controls><source src="./audios/dia9_utt11.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT107</td>
+</tr>
+<tr>
+  <td>no, um, I'm sorry, don't tell me, I don't think either answer would make me feel better.</td>
+  <td><audio controls><source src="./audios/dia21_utt4.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT108</td>
+</tr>
+<tr>
+  <td>Oh come on, what am I gonna do, its been hours and it  won€™t stop crying.</td>
+  <td><audio controls><source src="./audios/dia33_utt6.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT109</td>
+</tr>
+<tr>
+  <td>I know, I lied! I didn’t want her to think I was a terrible mother! I can’t even see my own baby!</td>
+  <td><audio controls><source src="./audios/dia56_utt0.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT110</td>
+</tr>
+<tr>
+  <td>I didn't think I could ever love again.</td>
+  <td><audio controls><source src="./audios/dia70_utt16.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT111</td>
+</tr>
+<tr>
+  <td>I'm sorry, honey, I promise it will never happen again.</td>
+  <td><audio controls><source src="./audios/dia111_utt8.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT112</td>
+</tr>
+<tr>
+  <td>I had to have one last kiss, and also-also you said that you were going to leave right after I got on the plane!</td>
+  <td><audio controls><source src="./audios/dia124_utt12.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT113</td>
+</tr>
+<tr>
+  <td>And you’re upset because you didn’t make your best friend cry?</td>
+  <td><audio controls><source src="./audios/dia160_utt0.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT114</td>
+</tr>
+<tr>
+  <td>Don’t I deserve a few tears?!!</td>
+  <td><audio controls><source src="./audios/dia160_utt6.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT115</td>
+</tr>
+<tr>
+  <td>I mean we-we told Joey, he cried his eyes out!</td>
+  <td><audio controls><source src="./audios/dia160_utt7.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT116</td>
+</tr>
+<tr>
+  <td>Look, it€™s not that easy. She said she wanted to marry me. I  don€™t want to hurt her.</td>
+  <td><audio controls><source src="./audios/dia166_utt5.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT117</td>
+</tr>
+<tr>
+  <td>I don’t think he’s the one I’m sad about.</td>
+  <td><audio controls><source src="./audios/dia199_utt7.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT118</td>
+</tr>
+<tr>
+  <td>Lost it just, like, I mean,</td>
+  <td><audio controls><source src="./audios/Ses04F_impro05_F004.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Sad</td>
+  <td>GPT119</td>
+</tr>
+<tr>
+  <td>it's not like it just disappeared into thin air. Somebody wasn't paying attention</td>
+  <td><audio controls><source src="./audios/Ses04F_impro05_F005.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Sad</td>
+  <td>GPT120</td>
+</tr>
+<tr>
+  <td>Look fifty dollars is unacceptable.  My bag itself cost over a hundred and fifty dollars.  You can't just give me fifty dollar gift certificate to Percoes or whatever the hell and then send me off like that's- that's good enough.  Like that's all I needed was fifty dollars.  My bag is worth more than that.</td>
+  <td><audio controls><source src="./audios/Ses04F_impro05_F011.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Sad</td>
+  <td>GPT121</td>
+</tr>
+<tr>
+  <td>What about me?</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_M007.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT122</td>
+</tr>
+<tr>
+  <td>No.  I am just making myself fascinating for you.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_F015.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Happy</td>
+  <td>GPT123</td>
+</tr>
+<tr>
+  <td>Not very funny, darling.  Why don't you have some more brandy.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_F029.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT124</td>
+</tr>
+<tr>
+  <td>Well then you'll wake up the people downstairs.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_M030.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT125</td>
+</tr>
+<tr>
+  <td>I will do no such thing.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_M032.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT126</td>
+</tr>
+<tr>
+  <td>Oh.  Must you be inspired?</td>
+  <td><audio controls><source src="./audios/Ses01F_script01_1_F038.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT127</td>
+</tr>
+<tr>
+  <td>What about me?</td>
+  <td><audio controls><source src="./audios/Ses04F_script03_2_M007.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT128</td>
+</tr>
+<tr>
+  <td>Very music- amusing indeed.</td>
+  <td><audio controls><source src="./audios/Ses05F_script03_2_M041.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Happy</td>
+  <td>GPT129</td>
+</tr>
+<tr>
+  <td>For God's sake, mom, three years.  Nobody comes back after three years!  It's insane!</td>
+  <td><audio controls><source src="./audios/Ses05F_script01_1_M013.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Sad</td>
+  <td>GPT130</td>
+</tr>
+<tr>
+  <td>I'm really good at what I do.  I'm smart.  I'm trained.  I have the education.  I'm talented.  I cannot-</td>
+  <td><audio controls><source src="./audios/Ses04F_impro04_F018.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Happy</td>
+  <td>GPT131</td>
+</tr>
+<tr>
+  <td>The bus, I'm riding the bus because I want to.</td>
+  <td><audio controls><source src="./audios/Ses01F_impro04_F032.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Happy</td>
+  <td>GPT132</td>
+</tr>
+<tr>
+  <td>You're kidding me, this is a joke.</td>
+  <td><audio controls><source src="./audios/Ses01F_impro05_F014.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Happy</td>
+  <td>GPT133</td>
+</tr>
+<tr>
+  <td>I did exactly what they told me to do.</td>
+  <td><audio controls><source src="./audios/Ses04F_impro01_F004.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT134</td>
+</tr>
+<tr>
+  <td>I've got a life too ma'am</td>
+  <td><audio controls><source src="./audios/Ses04F_impro01_M005.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT135</td>
+</tr>
+<tr>
+  <td>I've been to the back of the line five times.</td>
+  <td><audio controls><source src="./audios/Ses04F_impro01_F008.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT136</td>
+</tr>
+<tr>
+  <td>You're going to have to go back again.</td>
+  <td><audio controls><source src="./audios/Ses04F_impro01_M011.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Neutral</td>
+  <td>GPT137</td>
+</tr>
+<tr>
+  <td>I'm not starting over again.  No I have done this five times.  I am not starting over again.</td>
+  <td><audio controls><source src="./audios/Ses04F_impro01_F012.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Sad</td>
+  <td>GPT138</td>
+</tr>
+<tr>
+  <td>Oh.  You knew there was nothing in that.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_F001.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Neutral</td>
+  <td>GPT139</td>
+</tr>
+<tr>
+  <td>Presents?  It was only a trivial, little brooch.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_F002.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Neutral</td>
+  <td>GPT140</td>
+</tr>
+<tr>
+  <td>Well what does it all mean?  That's what I ask myself in my quest for ultimate truth.  Dear God, what does it all mean?</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_1_M013.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Sad</td>
+  <td>GPT141</td>
+</tr>
+<tr>
+  <td>You're the only one I know that still loves his parents.</td>
+  <td><audio controls><source src="./audios/Ses03F_script01_3_F000.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Sad</td>
+  <td>GPT142</td>
+</tr>
+<tr>
+  <td>Annie, I love you.</td>
+  <td><audio controls><source src="./audios/Ses03F_script01_3_M011.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT143</td>
+</tr>
+<tr>
+  <td>I love you a great deal.</td>
+  <td><audio controls><source src="./audios/Ses03F_script01_3_M012.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT144</td>
+</tr>
+<tr>
+  <td>I-I love you. I have no imagination. That's all I know how to tell it.</td>
+  <td><audio controls><source src="./audios/Ses03F_script01_3_M013.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT145</td>
+</tr>
+<tr>
+  <td>But we're going to have a honeymoon cruise.</td>
+  <td><audio controls><source src="./audios/Ses01F_impro03_F009.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT146</td>
+</tr>
+<tr>
+  <td>Yeah. It's really cool.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro07_F017.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT147</td>
+</tr>
+<tr>
+  <td>Oh man, I'm so excited. So much to do.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro07_F023.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT148</td>
+</tr>
+<tr>
+  <td>I'm just so excited to start my life.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro07_F025.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT149</td>
+</tr>
+<tr>
+  <td>[LAUGHTER]. Oh, Joe, I'm so happy.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro07_F035.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT150</td>
+</tr>
+<tr>
+  <td>We took off our shoes and we danced barefoot in the sand. Under the moon.</td>
+  <td><audio controls><source src="./audios/Ses03F_script02_2_F019.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT151</td>
+</tr>
+<tr>
+  <td>And I remember thinking, Finally, finally.  I am as happy as I am supposed to be.</td>
+  <td><audio controls><source src="./audios/Ses05F_script02_2_F015.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT152</td>
+</tr>
+<tr>
+  <td>Everybody's going to come up. We're going to stay in all the pretty cabins up there and, um, everybody's going to have, you know, really flowery sort of naturey stuff.</td>
+  <td><audio controls><source src="./audios/Ses04F_impro03_F010.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT153</td>
+</tr>
+<tr>
+  <td>Yeah, yeah, I called them. I called them And, of course, they were so excited 'cause they love him. Like they always have.  Um--</td>
+  <td><audio controls><source src="./audios/Ses02F_impro03_F017.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT154</td>
+</tr>
+<tr>
+  <td>So I was one of the first ones? That makes me feel so important.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro03_M049.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT155</td>
+</tr>
+<tr>
+  <td>I have to think about moving now.  We're going to move in together</td>
+  <td><audio controls><source src="./audios/Ses05F_impro03_F046.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT156</td>
+</tr>
+<tr>
+  <td>I think it's a good idea to live together before you get married.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro03_F047.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT157</td>
+</tr>
+<tr>
+  <td>You whispered the sweetest, most intimate things to me right into my ear so I could feel them as much as hear them.  And I remember thinking, this is it.  You know, finally, I am as happy as I'm supposed to be.</td>
+  <td><audio controls><source src="./audios/Ses01F_script02_2_F019.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT158</td>
+</tr>
+<tr>
+  <td>That would be wonderful, that would be great seriously.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro08_M025.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT159</td>
+</tr>
+<tr>
+  <td>six four nine four. That would be so great, thank you so much.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro08_M028.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT160</td>
+</tr>
+<tr>
+  <td>It was horrible, but you've made it much better, thank you very much. Absolutely</td>
+  <td><audio controls><source src="./audios/Ses05F_impro08_M030.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT161</td>
+</tr>
+<tr>
+  <td>You too, thank you so much, have a wonderful day.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro08_M031.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT162</td>
+</tr>
+<tr>
+  <td>I knew nothing of the sort.  You took presents from him.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_M002.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT163</td>
+</tr>
+<tr>
+  <td>I'll have a little, I think.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_M010.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT164</td>
+</tr>
+<tr>
+  <td>No particular reason.  Anyhow, they are very small ones.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_M011.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT165</td>
+</tr>
+<tr>
+  <td>Well as a matter of fact, yes, that's perfectly true.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_M018.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT166</td>
+</tr>
+<tr>
+  <td>This is no time of year for Tunis.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_M031.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT167</td>
+</tr>
+<tr>
+  <td>Well, so what do you think?</td>
+  <td><audio controls><source src="./audios/Ses02F_script02_1_M043.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT168</td>
+</tr>
+<tr>
+  <td>He's dreaming of him again, walking around.</td>
+  <td><audio controls><source src="./audios/Ses01F_script01_1_F005.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Happy</td>
+  <td>GPT169</td>
+</tr>
+<tr>
+  <td>Sit down, Mom.  I want to talk to you.</td>
+  <td><audio controls><source src="./audios/Ses01F_script01_1_M012.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT170</td>
+</tr>
+<tr>
+  <td>If you really want to do it-I mean,</td>
+  <td><audio controls><source src="./audios/Ses03F_impro04_M003.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT171</td>
+</tr>
+<tr>
+  <td>we're just pooling our funds together.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro04_M006.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT172</td>
+</tr>
+<tr>
+  <td>Maybe you could start teaching. I don't know.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro04_M017.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT173</td>
+</tr>
+<tr>
+  <td>It was Virgin Atlantic coming from London.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro05_F002.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT174</td>
+</tr>
+<tr>
+  <td>Let's- Let's just relax for a moment, ma'am.  You understand, obviously, we're going to do everything we can to keep all of your luggage here.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro05_M022.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT175</td>
+</tr>
+<tr>
+  <td>Well, I understand that.  Did you buy flight insurance?</td>
+  <td><audio controls><source src="./audios/Ses05F_impro05_M030.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT176</td>
+</tr>
+<tr>
+  <td>The airline makes these rules, mom ma'am.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro05_M041.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT177</td>
+</tr>
+<tr>
+  <td>You knew there was nothing in that.</td>
+  <td><audio controls><source src="./audios/Ses05F_script03_2_F000.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT178</td>
+</tr>
+<tr>
+  <td>So am I, bored stiff.  Would you like some brandy?</td>
+  <td><audio controls><source src="./audios/Ses05F_script03_2_M009.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Sad</td>
+  <td>GPT179</td>
+</tr>
+<tr>
+  <td>No particular reason. Anyhow, they were very small ones.</td>
+  <td><audio controls><source src="./audios/Ses03F_script03_2_M012.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT180</td>
+</tr>
+<tr>
+  <td>I just, I see all these other people getting commercials and work and it's like I'm not getting anything.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro04_F002.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT181</td>
+</tr>
+<tr>
+  <td>When I was seven, my- my grandmother died and I really- I don't know, I mean it was really hard to let go but the important thing is- is that you do let go and your realize that, you know, they- you know, they- this person had fun while they were- while they were here and, uh, you know, you work- you work through it.</td>
+  <td><audio controls><source src="./audios/Ses04F_impro06_M001.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT182</td>
+</tr>
+<tr>
+  <td>I got this idea watching them go down.  Everything was being destroyed, see, but it seemed that there was one new thing being made.  A sort of responsibility.  Man for man.</td>
+  <td><audio controls><source src="./audios/Ses02F_script01_3_M029.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT183</td>
+</tr>
+<tr>
+  <td>Because otherwise all you have is really loot and there's blood on it.  And I didn't want to take any of it.  And I guess that included you.</td>
+  <td><audio controls><source src="./audios/Ses02F_script01_3_M034.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT184</td>
+</tr>
+<tr>
+  <td>And, uh, I'm afraid that if you, you know, when you leave, you won't come back.</td>
+  <td><audio controls><source src="./audios/Ses04F_impro02_M004.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT185</td>
+</tr>
+<tr>
+  <td>I don't know.  but When it cracked he ran back into the house and start to cry in the kitchen.</td>
+  <td><audio controls><source src="./audios/Ses05F_script01_1_M003.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT186</td>
+</tr>
+<tr>
+  <td>He cried hard.</td>
+  <td><audio controls><source src="./audios/Ses05F_script01_1_F005.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT187</td>
+</tr>
+<tr>
+  <td>And I, you know, I mean, I said I was sorry and I brought it back to her kind of and I like put it on the ground and she was like, no, it's fine.  She was like, I would rather have her back, honestly.</td>
+  <td><audio controls><source src="./audios/Ses01F_impro06_F011.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT188</td>
+</tr>
+<tr>
+  <td>I mean it is just this , I mean it includes a lot and everything and you know it's the sand and it's the full moon and I just-I am sorry but I couldn't help wishing I was somewhere else.</td>
+  <td><audio controls><source src="./audios/Ses05F_script02_2_F028.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT189</td>
+</tr>
+<tr>
+  <td>Turned around for the worst, you know.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro06_F006.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT190</td>
+</tr>
+<tr>
+  <td>Kind of a whole year. I mean, he suffered with this, this monster, this thing, this disease.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro06_F014.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT191</td>
+</tr>
+<tr>
+  <td>I understand.  I'm worried about you.  I don't know what's going to happen to you.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro02_M029.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT192</td>
+</tr>
+<tr>
+  <td>I feel so worthless.</td>
+  <td><audio controls><source src="./audios/Ses02F_impro04_F009.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT193</td>
+</tr>
+<tr>
+  <td>Don't be stupid.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_F013.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT194</td>
+</tr>
+<tr>
+  <td>You shut up.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_F018.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT195</td>
+</tr>
+<tr>
+  <td>Nonsense.  They have a bag of venom behind their fangs and they snap. They snap.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_M022.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT196</td>
+</tr>
+<tr>
+  <td>I won't.  Let go, let go of me. Listen, listen?  I'm sick and tired of listening to you, you sadistic bully.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_F036.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT197</td>
+</tr>
+<tr>
+  <td>Oh shut up.  Let go.  I hate you, I hate you.  Do you hear?  You are a conceited and overbearing and utterly impossible.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_F037.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT198</td>
+</tr>
+<tr>
+  <td>Shut up. Shut up. God, I wouldn't marry you again if you came crawling back to me on a bended knee.  You are a vile, ill-tempered, mean little wench and I never want to see you again as long as I live.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_M040.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT199</td>
+</tr>
+<tr>
+  <td>You have a business here.  What the hell is this?</td>
+  <td><audio controls><source src="./audios/Ses01F_script01_1_F037.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT200</td>
+</tr>
+<tr>
+  <td>I don't care, okay.  Do you understand?  I don't care.  I don't mind if they bark and roll about like hoops.</td>
+  <td><audio controls><source src="./audios/Ses04F_script03_2_F022.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT201</td>
+</tr>
+<tr>
+  <td>Mind your own business.</td>
+  <td><audio controls><source src="./audios/Ses04F_script03_2_F024.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT202</td>
+</tr>
+<tr>
+  <td>You are a vile tempered, loose living, wicked little beast, and I never want to set eyes on you again.</td>
+  <td><audio controls><source src="./audios/Ses05F_script03_2_M042.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT203</td>
+</tr>
+<tr>
+  <td>Oh, marry you again?  I must have been insane.  What was I thinking?  I mean, you're completely outrageous.</td>
+  <td><audio controls><source src="./audios/Ses05F_script03_2_F040.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT204</td>
+</tr>
+<tr>
+  <td>Shut up, shut up.  I wouldn't marry you again if you came crawling to me on bended knee. You're a mean, evil-minded little vampire and I hope to God I never set eyes on you again.</td>
+  <td><audio controls><source src="./audios/Ses05F_script03_2_M043.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT205</td>
+</tr>
+<tr>
+  <td>She's not his girl.  She knows she's not.</td>
+  <td><audio controls><source src="./audios/Ses05F_script01_2_F006.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT206</td>
+</tr>
+<tr>
+  <td>Yeah.  Of course I do because I didn't enlist in this stupid thing.  Why don't you just get out now and then-</td>
+  <td><audio controls><source src="./audios/Ses04F_impro02_M021.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT207</td>
+</tr>
+<tr>
+  <td>You're a evil vampire and I hope to God I never see you again as long as I live.</td>
+  <td><audio controls><source src="./audios/Ses02F_script03_2_M047.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT208</td>
+</tr>
+<tr>
+  <td>Please just put the form in, take the picture, let me get my license and get the hell out of here.  Please.</td>
+  <td><audio controls><source src="./audios/Ses04F_impro01_F022.wav" type="audio/wav"></audio></td>
+  <td>Angry</td>
+  <td>Angry</td>
+  <td>GPT209</td>
+</tr>
+<tr>
+  <td>Oh Come and kiss me darling before your body rots and worms pop out of your eye sockets.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_1_M025.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT210</td>
+</tr>
+<tr>
+  <td>Aw.  Thank you, darling.  The same applies to you too, except that if you so much as look at another woman I'll kill you.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_1_F022.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT211</td>
+</tr>
+<tr>
+  <td>I will never forgive you.  Why did you wait all these years?  All I did was sit and wonder if I was crazy for thinking of you.</td>
+  <td><audio controls><source src="./audios/Ses02F_script01_3_F016.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT212</td>
+</tr>
+<tr>
+  <td>I'm embarrassing you. I didn't want to tell you it here. I wanted to go somewhere that would be brand-new to each other. It feels wrong here, don't you? This yard and this chair.</td>
+  <td><audio controls><source src="./audios/Ses03F_script01_3_M014.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Sad</td>
+  <td>GPT214</td>
+</tr>
+<tr>
+  <td>I don't want to win you from anybody. I want you to be ready for me.</td>
+  <td><audio controls><source src="./audios/Ses03F_script01_3_M015.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Angry</td>
+  <td>GPT215</td>
+</tr>
+<tr>
+  <td>He likes to keep tabs, you know.</td>
+  <td><audio controls><source src="./audios/Ses01F_impro03_F016.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT216</td>
+</tr>
+<tr>
+  <td>Actually now that you mention it, no, I don't.</td>
+  <td><audio controls><source src="./audios/Ses03F_script02_2_M038.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Neutral</td>
+  <td>GPT217</td>
+</tr>
+<tr>
+  <td>You can see right over the water.</td>
+  <td><audio controls><source src="./audios/Ses03F_script02_2_F045.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Neutral</td>
+  <td>GPT218</td>
+</tr>
+<tr>
+  <td>It's not champagne.</td>
+  <td><audio controls><source src="./audios/Ses03F_script02_2_M041.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Neutral</td>
+  <td>GPT219</td>
+</tr>
+<tr>
+  <td>You won't have trouble, You won't have trouble.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro03_F056.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Neutral</td>
+  <td>GPT220</td>
+</tr>
+<tr>
+  <td>You should just approach her like that.  Hey, will you bear my children?</td>
+  <td><audio controls><source src="./audios/Ses05F_impro03_F057.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Happy</td>
+  <td>GPT221</td>
+</tr>
+<tr>
+  <td>I guess we don't need glasses.</td>
+  <td><audio controls><source src="./audios/Ses01F_script02_2_F044.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Neutral</td>
+  <td>GPT222</td>
+</tr>
+<tr>
+  <td>I'm beginning to think this might be the right spot after all.</td>
+  <td><audio controls><source src="./audios/Ses01F_script02_2_F045.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Neutral</td>
+  <td>GPT223</td>
+</tr>
+<tr>
+  <td>So what do you think?</td>
+  <td><audio controls><source src="./audios/Ses01F_script02_1_M043.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Neutral</td>
+  <td>GPT224</td>
+</tr>
+<tr>
+  <td>About all of that, about all I was talking about.</td>
+  <td><audio controls><source src="./audios/Ses01F_script02_1_M044.wav" type="audio/wav"></audio></td>
+  <td>Happy</td>
+  <td>Neutral</td>
+  <td>GPT225</td>
+</tr>
+<tr>
+  <td>You went out of your way to torture me over Peter Burden.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_M004.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Angry</td>
+  <td>GPT226</td>
+</tr>
+<tr>
+  <td>I did not.  You worked that whole thing up in your jealous imagination.</td>
+  <td><audio controls><source src="./audios/Ses01F_script03_2_F004.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Angry</td>
+  <td>GPT227</td>
+</tr>
+<tr>
+  <td>Go back to school. You know? Another three more years, get your master's.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro04_M018.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Sad</td>
+  <td>GPT228</td>
+</tr>
+<tr>
+  <td>Hi,um- I think my baggage was lost, and I need to I guess file a claim or I don't know what.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro05_F000.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT229</td>
+</tr>
+<tr>
+  <td>No, I understand. I mean. It's got to be tough all those sentimental things, but um- this is all I can do for you.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro05_M017.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Sad</td>
+  <td>GPT230</td>
+</tr>
+<tr>
+  <td>I'm sorry, ma'am, there's nothing else I can do.  My hands are really tied here.  I really wish there was something else I could do for you.</td>
+  <td><audio controls><source src="./audios/Ses05F_impro05_M036.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Sad</td>
+  <td>GPT231</td>
+</tr>
+<tr>
+  <td>I'm going to ask her to marry me.</td>
+  <td><audio controls><source src="./audios/Ses04F_script01_1_M017.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Happy</td>
+  <td>GPT232</td>
+</tr>
+<tr>
+  <td>Oh, yeah, absolutely.  You know, and especially because you've been waiting so long and I know that, um, you've been having a difficult time.</td>
+  <td><audio controls><source src="./audios/Ses02F_impro08_F004.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Sad</td>
+  <td>GPT233</td>
+</tr>
+<tr>
+  <td>Okay.  Great.  What time of the day would you like?</td>
+  <td><audio controls><source src="./audios/Ses02F_impro08_F020.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Happy</td>
+  <td>GPT234</td>
+</tr>
+<tr>
+  <td>All right.  Great.  Well we have a very open flight that leaves at nine a.m. and fortunately uh the time change actually goes um backwards from that.</td>
+  <td><audio controls><source src="./audios/Ses02F_impro08_F021.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT235</td>
+</tr>
+<tr>
+  <td>I hate to break this to you but you meet people by being cool, so-</td>
+  <td><audio controls><source src="./audios/Ses04F_impro07_M079.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Angry</td>
+  <td>GPT236</td>
+</tr>
+<tr>
+  <td>Horrible thing.  I hated it.</td>
+  <td><audio controls><source src="./audios/Ses04F_script03_1_M029.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Angry</td>
+  <td>GPT237</td>
+</tr>
+<tr>
+  <td>I don't care what you do.  See, you could paint yourself green and dance naked in the Place Vendome and rush off madly with all the men in the world and I shan't say a word.  As long as you love me best.</td>
+  <td><audio controls><source src="./audios/Ses02F_script03_1_M024.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Happy</td>
+  <td>GPT238</td>
+</tr>
+<tr>
+  <td>[BREATHING] You know, it's lovely here.  The air is sweet.</td>
+  <td><audio controls><source src="./audios/Ses01F_script01_3_F002.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Happy</td>
+  <td>GPT239</td>
+</tr>
+<tr>
+  <td>We're all right, aren't we darling? Whatever happens.</td>
+  <td><audio controls><source src="./audios/Ses03F_script03_1_M004.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Sad</td>
+  <td>GPT240</td>
+</tr>
+<tr>
+  <td>Well, come on, come on.  Thinking about it like this is definitely not gonna help either though.</td>
+  <td><audio controls><source src="./audios/Ses02F_impro04_M019.wav" type="audio/wav"></audio></td>
+  <td>Neutral</td>
+  <td>Neutral</td>
+  <td>GPT241</td>
+</tr>
+<tr>
+  <td>Yeah, I guess I could.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro04_F023.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT242</td>
+</tr>
+<tr>
+  <td>Thank you for being here.</td>
+  <td><audio controls><source src="./audios/Ses04F_impro06_F007.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Happy</td>
+  <td>GPT243</td>
+</tr>
+<tr>
+  <td>I could hear him right through the floor of my room.</td>
+  <td><audio controls><source src="./audios/Ses04F_script01_1_M005.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT244</td>
+</tr>
+<tr>
+  <td>I wanted to get this settled first.</td>
+  <td><audio controls><source src="./audios/Ses04F_script01_1_M026.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT245</td>
+</tr>
+<tr>
+  <td>These years when I think of someone for my wife, I think of Annie.  What do you want, a diagram?</td>
+  <td><audio controls><source src="./audios/Ses04F_script01_1_M032.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT246</td>
+</tr>
+<tr>
+  <td>Then, what's wrong?  I mean, even in your letters there was some--something ashamed.</td>
+  <td><audio controls><source src="./audios/Ses02F_script01_3_F020.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Angry</td>
+  <td>GPT247</td>
+</tr>
+<tr>
+  <td>I don't know how to start.</td>
+  <td><audio controls><source src="./audios/Ses02F_script01_3_M022.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT248</td>
+</tr>
+<tr>
+  <td>It wouldn't work this way.</td>
+  <td><audio controls><source src="./audios/Ses02F_script01_3_F022.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT249</td>
+</tr>
+<tr>
+  <td>Well, I lost them.</td>
+  <td><audio controls><source src="./audios/Ses02F_script01_3_M024.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT250</td>
+</tr>
+<tr>
+  <td>It takes some time for a guy to toss that off.  'Cause they weren't just men.</td>
+  <td><audio controls><source src="./audios/Ses02F_script01_3_M026.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT251</td>
+</tr>
+<tr>
+  <td>For instance, one time, it had been raining several days and this kid came to me and gave me his last pair of dry socks.  I put them in pocket.  It's only a little thing, but that's the kind of guys I had.</td>
+  <td><audio controls><source src="./audios/Ses02F_script01_3_M027.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT252</td>
+</tr>
+<tr>
+  <td>So you're leaving tomorrow.</td>
+  <td><audio controls><source src="./audios/Ses04F_impro02_M000.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT253</td>
+</tr>
+<tr>
+  <td>This is really-this is unfair.</td>
+  <td><audio controls><source src="./audios/Ses04F_impro02_M001.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT254</td>
+</tr>
+<tr>
+  <td>No.  I figured it was best to leave him alone.</td>
+  <td><audio controls><source src="./audios/Ses05F_script01_1_M004.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT255</td>
+</tr>
+<tr>
+  <td>Just dancing barefoot in the sand, drinking champagne out of the bottle.</td>
+  <td><audio controls><source src="./audios/Ses02F_script02_2_F019.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Happy</td>
+  <td>GPT256</td>
+</tr>
+<tr>
+  <td>You know when I went overseas. I said I was in command of a company.</td>
+  <td><audio controls><source src="./audios/Ses03F_script01_3_M029.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Sad</td>
+  <td>GPT257</td>
+</tr>
+<tr>
+  <td>He was amazing.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro06_F007.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT258</td>
+</tr>
+<tr>
+  <td>I loved that boy.</td>
+  <td><audio controls><source src="./audios/Ses03F_impro06_F008.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Happy</td>
+  <td>GPT259</td>
+</tr>
+<tr>
+  <td>I can see that.</td>
+  <td><audio controls><source src="./audios/Ses02F_script01_1_F044.wav" type="audio/wav"></audio></td>
+  <td>Sad</td>
+  <td>Neutral</td>
+  <td>GPT260</td>
+</tr>
+
+
+
       </tbody>
     </table>
   </div>
@@ -142,4 +1589,3 @@ $(window).on("load resize ", function() {
 
 </body>
 </html>
-
