@@ -8,7 +8,7 @@
       text-transform: uppercase;
       font-weight: 300;
       text-align: center;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
 
     table {
@@ -101,29 +101,29 @@
     }
 
     td:nth-child(1) {
-      width: 60%;
+      width: 50%;
       text-align: left;
     }
 
     th:nth-child(2),
     td:nth-child(2) {
-      width: 15%;
+      width: 20%;
     }
 
     th:nth-child(3),
     td:nth-child(3) {
-      width: 10%;
+      width: 15%;
     }
 
     th:nth-child(4),
     td:nth-child(4) {
-      width: 10%;
+      width: 15%;
     }
-
+/*
     th:nth-child(5),
     td:nth-child(5) {
       width: 10%;
-    }
+    }*/
 
     /* demo styles */
 
@@ -184,8 +184,9 @@
 <body>
 <section>
   <!--for demo wrap-->
-  <h1><br>Can Large Language Models Aid in Annotating<br>Speech Emotional Data? Uncovering New Frontiers</h1>
+  <h1><br>Can Large Language Models<br>Aid in AnnotatingSpeech Emotional Data?<br>Uncovering New Frontiers</h1>
   <div class="made-with-love">
+    <a class="made-with-love" style="text-align: center; font-weight: bold; color: yellow;" href="https://arxiv.org/pdf/2307.06090.pdf" target="_blank">[Paper Link]</a><br><br>
   On this page, we feature a series of examples comparing the annotations for speech emotion recognition by ChatGPT and human experts, using data from the IEMOCAP and MELD datasets. These examples have been meticulously selected to underscore the differences in annotation quality and emotional understanding between ChatGPT and human annotators. Through this comparison, we aim to showcase ChatGPT's capabilities in interpreting emotional expressions in speech, set against the backdrop of the nuanced and accurate annotations provided by human experts on these well-established datasets.
 <br>
 </div>
@@ -204,10 +205,10 @@
   <div class="tbl-content">
     <table cellpadding="0" cellspacing="0" border="0">
       <tbody>
-        <tr>
-
-    <td style="text-align: center; font-weight: bold; color: yellow;">MELD</td>
-</tr>    
+  <tr>
+    <td style="text-align: right; font-weight: bold; color: yellow;">Dataset:</td>
+    <td style="text-align: left; font-weight: bold; color: yellow;">MELD</td>
+  </tr>    
 <tr> 
  <tr>
   <td>Fine! I’m sorry for your loss!</td>
@@ -534,7 +535,8 @@
   <td>Sad</td>
 </tr>
 <tr>
-  <td style="text-align: center; font-weight: bold; color: yellow;">IEMOCAP</td>
+  <td style="text-align: right; font-weight: bold; color: yellow;">Dataset:</td>
+    <td style="text-align: left; font-weight: bold; color: yellow;">IEMOCAP</td>
 </tr>
 <tr>
   <td>Lost it just, like, I mean,</td>
@@ -1297,4 +1299,3 @@ $(window).on("load resize ", function() {
 
 </body>
 </html>
-
